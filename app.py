@@ -16,3 +16,4 @@ with st.expander("Data Preperation"):
 with st.sidebar:
     pass
 island = st.selectbox('Island',('Biscoe','Dream','Torgersen'))
+bill_length_mm = st.slider('Bill length (mm)',42.1,59.6,43.9)
