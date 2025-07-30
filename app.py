@@ -7,9 +7,9 @@ st.title("Penguine Speicy Prediction ML app")
 st.info("This is end-to-end Machine Learning App")
  
 with st.expnder("Data"):
-  st.write("**Raw data**")
-  df = pd.read_csv("https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv")
-  df
+st.write("**Raw data**")
+df = pd.read_csv("https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv")
+df
 st.write("Input variables")
 x_raw = df.drop('species',axis=1)
 y_raw = df.species 
