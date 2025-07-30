@@ -4,14 +4,14 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifies
 
 st.title("Penguine Specy Prediction ML app")
-st.info("This is end-t-end MAchine Learning App)
+st.info("This is end-t-end MAchine Learning App")
 with st.expander("Data"):
   pass
-  with st.expander("Data Visulization"):
+with st.expander("Data Visulization"):
     pass
-  with st.expander("input data"):
+with st.expander("input data"):
     pass
-  with st.expander("Data Preperation"):
+with st.expander("Data Preperation"):
     pass
-  with st.sidebar:
+with st.sidebar:
     pass
