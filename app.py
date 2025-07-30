@@ -66,9 +66,9 @@ with st.expander("Data Visualization"):
 
   st.pyplot(fig)
 
-# Box plot 
-  st.write("Boxplot of WWWWW Body Mass by NNNNN Species")
-  fig, ax = plt.subplots()
+# Boxplot visualization  
+                       st.write("Boxplot of Body Mass by Species")
+                    fig, ax = plt.subplots()
   sns.boxplot(data=df, x='species', y='body_mass_g', ax=ax)
   st.pyplot(fig)
 
