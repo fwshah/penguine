@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 st.title("Penguine Speicy Prediction ML app")
 st.info("This is end-to-end Machine Learning App")
  
-with st.expnder("Data"):
+with st.expander("Data"):
  st.write("**Raw data**")
  df = pd.read_csv("https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv")
  df
