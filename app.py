@@ -42,7 +42,7 @@ with st.expander("Data"):
 
 with st.expander("Data Visualization"):
 
-  st.write("Count of Penguin Species")
+  st.write("Count of XXXX Penguin Species")
 
   fig, ax = plt.subplots()
 
