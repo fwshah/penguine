@@ -15,9 +15,9 @@ with st.expnder("Data"):
  y_raw = df.species 
  y_raw
 
-st.write("Descriptive Statistics")
-des = df.describe()
-des
+ st.write("Descriptive Statistics")
+ des = df.describe()
+ des
 with st.expander("Data Visualization"):
   pass
  
