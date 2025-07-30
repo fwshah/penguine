@@ -50,3 +50,4 @@ with st.expandar("Input data"):
  input_df
  st.write("**Combined data**")
  input_penguins
+ encode = ['island','sex']
