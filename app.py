@@ -14,6 +14,10 @@ with st.expnder("Data"):
  x_raw = df.drop('species',axis=1)
  y_raw = df.species 
  y_raw
+
+st.write("Descriptive Statistics")
+des = df.describe()
+des
 with st.expander("Data Visualization"):
   pass
  
