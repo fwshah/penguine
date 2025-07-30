@@ -51,3 +51,6 @@ with st.expandar("Input data"):
  st.write("**Combined data**")
  input_penguins
  encode = ['island','sex']
+ df_penguins = pd.get_dummies(input_prnguins,prefix = encode)
+ x = df_penguins[1:]
+ input_row = df_penguins[:1]
