@@ -17,3 +17,6 @@ with st.sidebar:
     pass
 island = st.selectbox('Island',('Biscoe','Dream','Torgersen'))
 bill_length_mm = st.slider('Bill length (mm)',42.1,59.6,43.9)
+bill_depth = st.slider('Bill length (mm)',13.1,21.5,17.2)
+flipper_length_mm = st.slider('flipper length (mm)',172.0,231.0,201.0)
+body_mass_g = st.slider('body mass (mm)',2700.0,6300.0,4207.0)
