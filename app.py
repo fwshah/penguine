@@ -20,8 +20,8 @@ with st.expander("Data"):
  des
 with st.expander("Data Visualization"):
   st.scatter_chart(data=df , x='bill_length_mm',y='body_mass_g',color='species')
-  fig = px.box(df, x='species', y='body_mass_g', color='species')
-  st.plotly_chart(fig)
+  # fig = px.box(df, x='species', y='body_mass_g', color='species')
+  # st.plotly_chart(fig)
 
  
 with st.expander("Input data"):
@@ -38,3 +38,10 @@ with st.sidebar:
   flipper_length_mm = st.slider('Flipper length (mm)',172.0,231.0,201.0)
   body_mass_g = st.slider('Body mass (g)',2700.0,6300.0,4207.0)
   gender = st.selectbox('Gender',('male','female'))
+  data = {'island':island,
+          'bill_depth_mm':bill_dpth_mm,
+          'flipper_length_mm': flipper_length_mm,
+          'gender': gender
+  }
+ input_off = pd.DataFrame(data, index[0])
+input_penguins = pd.concat([input_df], x_raw], axis=0)
