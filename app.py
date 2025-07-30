@@ -20,8 +20,9 @@ with st.expander("Data"):
  des
 with st.expander("Data Visualization"):
   st.scatter_chart(data=df , x='bill_length_mm',y='body_mass_g',color='species')
-  st.box(df, x='species', y='body_mass_g', color='species')
+  fig = px.box(df, x='species', y='body_mass_g', color='species')
   st.plotly_chart(fig)
+
  
 with st.expander("Input data"):
   pass
