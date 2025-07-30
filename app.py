@@ -15,3 +15,4 @@ with st.expander("Data Preperation"):
     pass
 with st.sidebar:
     pass
+island = st.selectbox('Island',('Biscoe','Dream','Torgersen'))
