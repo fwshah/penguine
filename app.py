@@ -65,13 +65,13 @@ with st.expander("Data Visualization"):
   sns.scatterplot(data=df, x='bill_length_mm', y='body_mass_g', hue='species', ax=ax)
 
   st.pyplot(fig)
-
+#####################################################################################################
 # Boxplot visualization  
   st.write("Boxplot of Body Mass by Species")
   fig, ax = plt.subplots()
   sns.boxplot(data=df, x='species', y='body_mass_g', ax=ax)
   st.pyplot(fig)
-
+#####################################################################################################
 with st.expander("Data Preperation"):
 
   pass
