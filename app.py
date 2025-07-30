@@ -5,3 +5,13 @@ from sklearn.ensemble import RandomForestClassifies
 
 st.title("Penguine Specy Prediction ML app")
 st.info("This is end-t-end MAchine Learning App)
+with st.expander("Data"):
+  pass
+  with st.expander("Data Visulization"):
+    pass
+  with st.expander("input data"):
+    pass
+  with st.expander("Data Preperation"):
+    pass
+  with st.sidebar:
+    pass
