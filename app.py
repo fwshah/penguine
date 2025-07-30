@@ -21,50 +21,34 @@ with st.expander("Data"):
   df = pd.read_csv("https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv")
 
   df
- 
   st.write("Input Vriables")
-
   X_raw = df.drop("species", axis = 1)
-
   X_raw
  
   st.write("Target Variable")
-
   y_raw = df.species
-
   y_raw
  
   st.write("Descriptive Statistics")
-
   des = df.describe()
-
   des  
 
 with st.expander("Data Visualization"):
-
   st.write("Count of Penguin Species")
-
   fig, ax = plt.subplots()
-
   sns.countplot(data=df, x='species', ax=ax)
-
   st.pyplot(fig)
- 
+
   st.write("Bill Length vs Bill Depth")
-
   fig, ax = plt.subplots()
-
   sns.scatterplot(data=df, x='bill_length_mm', y='bill_depth_mm', hue='species', ax=ax)
-
   st.pyplot(fig)
  
   st.write("Bill Length vs Body Mass")
-
   fig, ax = plt.subplots()
-
   sns.scatterplot(data=df, x='bill_length_mm', y='body_mass_g', hue='species', ax=ax)
-
   st.pyplot(fig)
+  
 #####################################################################################################
 # Boxplot visualization  
   st.write("Boxplot of Body Mass by Species")
