@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.title("Penguine Speicy XXXXX Prediction ML app")
+st.title("Penguine Speicy Prediction ML app")
 st.info("This is end-to-end Machine Learning App")
 
 with st.expander("Data"):
